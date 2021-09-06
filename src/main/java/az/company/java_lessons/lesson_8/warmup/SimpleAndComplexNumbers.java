@@ -11,7 +11,13 @@ public class SimpleAndComplexNumbers {
         System.out.println("==========> WELCOME TO THE APPLICATION ! <==========");
         System.out.print("Enter the number: ");
         int number = sc.nextInt();
+        int digits = 0;
         String result = "";
+
+        for (int i = 1; i <= number; i++) {
+            if ((number % i) == 0)
+                digits++;
+        }
 
         // write your code here
         // if number is simple then result must be "SIMPLE"
