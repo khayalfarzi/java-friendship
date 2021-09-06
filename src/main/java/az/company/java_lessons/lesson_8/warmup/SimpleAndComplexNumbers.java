@@ -24,6 +24,12 @@ public class SimpleAndComplexNumbers {
         // if number is complex result must be "COMPLEX"
         // ....
 
+        if (number == 0)
+            result = "Number is 0";
+        else if (digits <= 2)
+            result = "SIMPLE";
+        else result = "COMPLEX";
+
         System.out.println(result);
         System.out.println("==========> Good bye ! <==========");
     }
