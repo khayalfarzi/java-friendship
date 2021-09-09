@@ -1,0 +1,19 @@
+1) enter row size : 3
+enter column size : 3
+
+enter number : 5
+
+ 2 4 5
+ 1 3 8
+ 9 17 28
+
+ /**
+     * 3x3
+     * <p>
+     * 0 0 0
+     * 0 0 0
+     * 0 0 0
+     */
+
+2) You have given array NxN
+Print array as format. For ex : [1, 2, 3, 4, 5, 6]
