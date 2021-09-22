@@ -26,7 +26,7 @@ public class FindMiddleNumberExample {
         char result;
 
         if (isOdd) {
-            int index = ((number.length() / 2) + 1);
+            int index = ((number.length() / 2) + 2);
             result = number.charAt(index);
         } else result = 0;
 
